@@ -30,8 +30,8 @@ $(document).ready(function() {
   });
 });
 
-// var n = this-childlevel;
+// var n = $(this).children().index();
 // //how do we find this?
-// $(cat).childlevel.remove();
-// $(dog).childlevel.remove();
+// $(ul#cat:nth-child).remove();
+// $(ul#dog:nth-child).remove();
 // //how do we declare it here?
